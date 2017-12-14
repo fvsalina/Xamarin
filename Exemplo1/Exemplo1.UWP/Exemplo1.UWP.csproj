@@ -12,7 +12,7 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
+    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
@@ -104,6 +104,29 @@
     <None Include="Exemplo1.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="abra.png" />
+    <Content Include="alakazam.png" />
+    <Content Include="blastoise.png" />
+    <Content Include="Bulbasaur.png" />
+    <Content Include="charizard.png" />
+    <Content Include="charmander.png" />
+    <Content Include="charmeleon.png" />
+    <Content Include="Dragonair.png" />
+    <Content Include="dragonite.png" />
+    <Content Include="Dratini.png" />
+    <Content Include="Gastly.png" />
+    <Content Include="Gengar.png" />
+    <Content Include="Haunter.png" />
+    <Content Include="Ivysaur.png" />
+    <Content Include="kadabra.png" />
+    <Content Include="pichu.png" />
+    <Content Include="Pidgeot.png" />
+    <Content Include="Pidgeotto.png" />
+    <Content Include="pidgey.png" />
+    <Content Include="pikachu.png" />
+    <Content Include="pokebola.png" />
+    <Content Include="pokemon_background.png" />
+    <Content Include="pokemon_logo.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />
     <Content Include="Assets\LockScreenLogo.scale-125.png" />
@@ -136,6 +159,10 @@
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="raichu.png" />
+    <Content Include="squirtle.png" />
+    <Content Include="Venusaur.png" />
+    <Content Include="wartortle.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -149,7 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Exemplo1\Exemplo1.csproj">
